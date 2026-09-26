@@ -4,6 +4,10 @@ An interactive sales analytics dashboard built with **Python, Pandas, Plotly, an
 
 The project transforms raw retail sales data into an interactive dashboard that allows users to explore sales performance, customer segments, products, geographic trends, and shipping performance.
 
+## 🌐 Live Demo
+
+👉 [Open the Interactive Sales Analytics Dashboard](https://sales-analytics-app-dashboard-ktvz9o8vghbjqdpdxgvqle.streamlit.app/)
+
 ## 🚀 Features
 
 - Interactive sales dashboard
@@ -58,7 +62,7 @@ With all records selected, the analysis shows:
 
 The dashboard recalculates its KPIs, charts, and business insights dynamically when filters are changed.
 
-> Note: The dataset contains sales revenue but does not contain profit or cost information. Therefore, the dashboard analyzes sales performance rather than profitability.
+> **Note:** The dataset contains sales revenue but does not contain profit or cost information. Therefore, the dashboard analyzes sales performance rather than profitability.
 
 ## 🛠️ Technologies Used
 
@@ -70,11 +74,14 @@ The dashboard recalculates its KPIs, charts, and business insights dynamically w
 ## 📁 Project Structure
 
 ```text
-freelance-sales-analysis/
+sales-analytics-streamlit-dashboard/
 │
 ├── data/
 │   ├── sales_data.csv
 │   └── cleaned_sales_data.csv
+│
+├── screenshots/
+│   └── dashboard.png
 │
 ├── analysis.py
 ├── app.py
@@ -82,6 +89,8 @@ freelance-sales-analysis/
 ├── README.md
 └── .gitignore
 ```
+
+> `.venv/` is used locally and excluded from Git using `.gitignore`.
 
 ## 🔄 Data Processing
 
@@ -129,8 +138,7 @@ The dataset includes information about:
 
 This project uses the public **Superstore Sales Dataset** available on Kaggle.
 
-Dataset:
-`rohitsahoo/sales-forecasting`
+Dataset: `rohitsahoo/sales-forecasting`
 
 The dataset is used for educational and portfolio purposes.
 
@@ -139,18 +147,16 @@ The dataset is used for educational and portfolio purposes.
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_REPOSITORY_URL
+git clone https://github.com/tushar032004/sales-analytics-streamlit-dashboard.git
 ```
 
 ### 2. Move into the project directory
 
 ```bash
-cd freelance-sales-analysis
+cd sales-analytics-streamlit-dashboard
 ```
 
 ### 3. Create a virtual environment
-
-Windows:
 
 ```bash
 python -m venv .venv
@@ -200,8 +206,7 @@ The Streamlit application uses this cleaned dataset.
 
 This project was developed as an independent portfolio project to demonstrate practical skills in:
 
-- Data cleaning
-- Data preprocessing
+- Data cleaning and preprocessing
 - Exploratory data analysis
 - Business data analysis
 - Pandas
