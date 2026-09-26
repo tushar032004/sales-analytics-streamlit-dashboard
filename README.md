@@ -8,6 +8,10 @@ The project transforms raw retail sales data into an interactive dashboard that 
 
 👉 [Open the Interactive Sales Analytics Dashboard](https://sales-analytics-app-dashboard-ktvz9o8vghbjqdpdxgvqle.streamlit.app/)
 
+## 📸 Dashboard Preview
+
+![Sales Analytics Dashboard](screenshots/dashboard.png)
+
 ## 🚀 Features
 
 - Interactive sales dashboard
